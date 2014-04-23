@@ -13,7 +13,7 @@
     </description>
 
     <author href="http://senderosazules.org" email="info@senderosazules.org">
-        Senderos Azules
+        El equipo de Senderos Azules: Juan Parbole e Iñaki Alfaro
     </author>
 
     <!--
@@ -24,7 +24,7 @@
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"           value="3.1.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
@@ -60,6 +60,7 @@
     
 
     <!-- Define app splash screen for each platform. -->
+    <gap:splash src="splash.png" />
     <gap:splash src="android/images/splash/drawable-ldpi/splash.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="android/images/splash/drawable-mdpi/splash.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="android/images/splash/drawable-hdpi/splash.png"  gap:platform="android" gap:density="hdpi" />
